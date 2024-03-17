@@ -12,8 +12,8 @@ class Person {
 	}
 }
 
-// const person = new Person("John", 25);
-// console.log(person.name);
+const person = new Person("John", 25);
+console.log(person.name);
 
 class Student extends Person {
 	study(){
